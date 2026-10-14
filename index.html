@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khammouane Cement Laos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ส่วนหัวแถบด้านบนสีแดง -->
+     <div class="top-bar"></div>
+     <header class="header">
+
+        <a href="index.html" class="logo-area">
+            <img src="images/logo.png" alt="KCL Logo">
+            <span>Khammouane Cement Co., LTD</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="news.html">News</a>
+            <a href="career.html">Career</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <Button class="menu-button" onclick="toggleMenu()">☰</Button>
+     </header>
+     <!-- slider -->
+    <section class="hero">
+        <div class="slide active">
+            <img src="images/hero.jpeg" alt="view1">
+
+            <div class="slide-text">
+                <h1> building a Stronger Future </h1>
+                <p>Quality products for your business</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/hero2.jpeg" alt="view2">
+
+            <div class="slide-text">
+                <h1>Quality Cement Products</h1>
+                <p>Reliable solutions for contruction</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/hero3.jpeg" alt="view3">
+
+            <div class="slide-text">
+                <h1>Creating Better partnerships</h1>
+                <p>Growing together with our customers</p>
+            </div>
+        </div>
+
+        <button class="prev" onclick="changeSlide(-1)"><</button>
+        <button class="next" onclick="changeSlide(1)">></button>
+
+        <div class="slider-dots">
+            <span class="dot active" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+            <span class="dot" onclick="showSlide(2)"></span>
+        </div>
+
+    </section>  
+    </section>
+
+  <!-- About -->
+  <section class="about section-container">
+
+    <div class="section-title">
+      <p>ABOUT US</p>
+      <h2>
+        BUILDING A STRONGER FUTURE<br>
+        WITH QUALITY CEMENT
+      </h2>
+    </div>
+
+    <div class="about-text">
+      <p>
+        We provide quality cement solutions designed to meet
+        the specific needs of construction, infrastructure and
+        industrial projects.
+      </p>
+
+      <a href="about.html" class="primary-button">READ MORE</a>
+    </div>
+    </section>
+    <!-- Cards -->
+  <section class="cards-section section-container">
+
+    <a href="about.html" class="info-card">
+      <img src="images/hero3.jpeg" alt="Profile">
+      <div class="card-content">
+        <h3>PROFILE</h3>
+        <p>Learn more about our company.</p>
+      </div>
+    </a>
+
+    <a href="products.html" class="info-card">
+      <img src="images/product.webp" alt="Products">
+      <div class="card-content">
+        <h3>PRODUCTS</h3>
+        <p>Discover our quality products.</p>
+      </div>
+    </a>
+
+    <a href="services.html" class="info-card">
+      <img src="images/service.avif" alt="Service">
+      <div class="card-content">
+        <h3>SERVICE</h3>
+        <p>Professional services for customers.</p>
+      </div>
+    </a>
+    <a href="contact.html" class="info-card">
+      <img src="images/contact.jpg" alt="Contact">
+      <div class="card-content">
+        <h3>CONTACT</h3>
+        <p>Contact our team today.</p>
+      </div>
+    </a>
+
+  </section>
+  <!-- Why Choose Us -->
+  <section class="why-us section-container">
+
+    <div class="section-title">
+      <p>WHY CHOOSE US</p>
+      <h2>
+        PROVIDING EXCELLENCE SERVICES AND TOP<br>
+        QUALITY PRODUCTS FOR YOUR BUSINESS NEEDS
+      </h2>
+    </div>
+
+    <div class="features">
+
+      <div class="feature">
+        <div class="feature-icon">☏</div>
+        <h3>After Sales<br>Services</h3>
+        <p>We care about our customers.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">↗</div>
+        <h3>Delivering<br>Values</h3>
+        <p>Quality and value in every service.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">♢</div>
+        <h3>Creating<br>Partners</h3>
+        <p>Building long-term partnerships.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-icon">★</div>
+        <h3>Priority and<br>Quality</h3>
+        <p>Quality is our priority.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Khammouane Cement Co., LTD</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
