@@ -59,8 +59,7 @@ body {
   cursor: pointer;
 }
 .navbar a:hover {
-  color: #ffffff;
-  background: #e52b3a;
+  color: red;
 }
 /* ปุ่มสามขีด */
 .menu-button {
