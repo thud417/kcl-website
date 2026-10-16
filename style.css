@@ -57,6 +57,9 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+.navbar a:hover {
+  background: #e52b3a;
+}
 /* ปุ่มสามขีด */
 .menu-button {
   display: none;
