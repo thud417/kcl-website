@@ -60,6 +60,7 @@ body {
 }
 .navbar a:hover {
   background: #e52b3a;
+  color: #fff;
 }
 /* ปุ่มสามขีด */
 .menu-button {
