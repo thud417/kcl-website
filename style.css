@@ -848,6 +848,11 @@ footer {
 
 .video-box video {
   width: 100%;
+  max-width: 750px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: none;
+  overflow: hidden;
   height: 360px;
   display: block;
   object-fit: cover;
